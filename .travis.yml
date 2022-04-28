@@ -3,9 +3,9 @@ sudo: false
 jobs:
   include:
     - stage: unit tests
-      script: echo one
+      script: echo first stage
     - stage: unit tests
-      script: echo two
+      script: echo second stage
     - stage: deploy to staging
       script: skip
       deploy: &heroku
