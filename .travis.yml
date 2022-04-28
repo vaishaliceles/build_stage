@@ -3,7 +3,7 @@ sudo: false
 jobs:
   include:
     - stage: unit tests
-      script: echo one
+      script: echo one two
     - stage: unit tests
       script: echo two
     - stage: deploy to staging
